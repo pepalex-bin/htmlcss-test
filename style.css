@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 /* PAGE SECTIONS */
@@ -48,8 +49,8 @@ aside {
   border-bottom: 5px solid #1098ad;
   /* padding-top: 50px;
   padding-bottom: 50px;*/
-  padding: 50px 0;
-  width: 500px;
+  padding: 50px 40px;
+  /* width: 500px; */
 }
 
 /* Removing this rule and adding to body
@@ -95,6 +96,7 @@ h4 {
   font-size: 20px;
   text-transform: uppercase;
   text-align: center;
+  margin-bottom: 30px;
 }
 
 p {
@@ -145,12 +147,16 @@ li:last-child {
 
 .related {
   list-style: none;
+  margin-left: 0;
 }
 
 .related-ul {
-  background-color: #cfcfcf;
+  /* background-color: #cfcfcf;
   border-top: 2px dashed #1098ad;
-  border-bottom: 2px dashed #1098ad;
+  border-bottom: 2px dashed #1098ad; */
+}
+li:first-child {
+  font-weight: bold;
 }
 
 li:last-child {
