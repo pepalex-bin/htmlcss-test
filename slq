@@ -1,0 +1,2 @@
+not in (PI_1, PI_2, PI_3, PI_4,PI_5,PI_6,PI_7,PI_8, PI_9, PI_10, PI_11, PI_12, PI_13, PI_14,  PI_15, PI_16, PI_17, PI_18, PI_19, PI_20, PI_21, PI_22, PI_23)
+component = Insurance AND  status in (Backlog, "Under investigation", "ready for analysis", "In analysis", "analysis blocked", "Investigation Blocked", "Ready for validation") AND "Programm Increment" is EMPTY

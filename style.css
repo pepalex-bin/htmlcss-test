@@ -100,7 +100,7 @@ h4 {
 }
 
 p {
-  font-size: 22px;
+  font-size: 24px;
   line-height: 1.5;
   margin-bottom: 15px;
 }
@@ -150,11 +150,12 @@ li:last-child {
   margin-left: 0;
 }
 
-.related-ul {
-  /* background-color: #cfcfcf;
+/*.related-ul {
+  background-color: #cfcfcf;
   border-top: 2px dashed #1098ad;
-  border-bottom: 2px dashed #1098ad; */
-}
+  border-bottom: 2px dashed #1098ad;
+}*/
+
 li:first-child {
   font-weight: bold;
 }
@@ -318,4 +319,5 @@ aside {
 footer {
   /* background-color: yellow; */
   clear: both;
+  text-align: ;
 }
